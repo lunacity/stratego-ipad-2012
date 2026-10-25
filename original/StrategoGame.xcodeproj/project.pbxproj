@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340AB197154F878D0049853D /* strategoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AB196154F878D0049853D /* strategoGame.m */; };
+		340AB1A5154F8AED0049853D /* blue4.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB19B154F8AEA0049853D /* blue4.png */; };
+		340AB1A6154F8AED0049853D /* blue5.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB19C154F8AEB0049853D /* blue5.png */; };
+		340AB1A7154F8AED0049853D /* blue6.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB19D154F8AEB0049853D /* blue6.png */; };
+		340AB1A8154F8AED0049853D /* blue7.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB19E154F8AEB0049853D /* blue7.png */; };
+		340AB1A9154F8AED0049853D /* blue8.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB19F154F8AEB0049853D /* blue8.png */; };
+		340AB1AA154F8AED0049853D /* blue9.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1A0154F8AEC0049853D /* blue9.png */; };
+		340AB1AB154F8AED0049853D /* bluebomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1A1154F8AEC0049853D /* bluebomb.png */; };
+		340AB1B8154F8B4D0049853D /* blueflag.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1AC154F8B4C0049853D /* blueflag.png */; };
+		340AB1BC154F8B4D0049853D /* red4.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B0154F8B4C0049853D /* red4.png */; };
+		340AB1BD154F8B4D0049853D /* red5.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B1154F8B4C0049853D /* red5.png */; };
+		340AB1BE154F8B4D0049853D /* red6.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B2154F8B4C0049853D /* red6.png */; };
+		340AB1BF154F8B4D0049853D /* red7.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B3154F8B4C0049853D /* red7.png */; };
+		340AB1C0154F8B4D0049853D /* red8.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B4154F8B4C0049853D /* red8.png */; };
+		340AB1C1154F8B4D0049853D /* red9.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B5154F8B4C0049853D /* red9.png */; };
+		340AB1C2154F8B4D0049853D /* redbomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B6154F8B4C0049853D /* redbomb.png */; };
+		340AB1C3154F8B4D0049853D /* redflag.png in Resources */ = {isa = PBXBuildFile; fileRef = 340AB1B7154F8B4D0049853D /* redflag.png */; };
+		A61611FE154B26BD00C23F67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61611FD154B26BD00C23F67 /* UIKit.framework */; };
+		A6161200154B26BD00C23F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61611FF154B26BD00C23F67 /* Foundation.framework */; };
+		A6161202154B26BD00C23F67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6161201154B26BD00C23F67 /* CoreGraphics.framework */; };
+		A6161208154B26BD00C23F67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6161206154B26BD00C23F67 /* InfoPlist.strings */; };
+		A616120A154B26BD00C23F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6161209154B26BD00C23F67 /* main.m */; };
+		A616120E154B26BD00C23F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A616120D154B26BD00C23F67 /* AppDelegate.m */; };
+		A6161211154B26BD00C23F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6161210154B26BD00C23F67 /* ViewController.m */; };
+		A6161214154B26BD00C23F67 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6161212154B26BD00C23F67 /* ViewController.xib */; };
+		A616121C154B270B00C23F67 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = A616121B154B270B00C23F67 /* Piece.m */; };
+		A616121F154B278100C23F67 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A616121E154B278100C23F67 /* BoardView.m */; };
+		A616123D154B28C800C23F67 /* BoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A616123C154B28C700C23F67 /* BoardModel.m */; };
+		A639CFFE1553037D00BFA6E5 /* blue1.png in Resources */ = {isa = PBXBuildFile; fileRef = A639CFF81553037C00BFA6E5 /* blue1.png */; };
+		A639CFFF1553037D00BFA6E5 /* blue2.png in Resources */ = {isa = PBXBuildFile; fileRef = A639CFF91553037C00BFA6E5 /* blue2.png */; };
+		A639D0001553037D00BFA6E5 /* blue3.png in Resources */ = {isa = PBXBuildFile; fileRef = A639CFFA1553037D00BFA6E5 /* blue3.png */; };
+		A639D0031553037D00BFA6E5 /* darksquare.png in Resources */ = {isa = PBXBuildFile; fileRef = A639CFFD1553037D00BFA6E5 /* darksquare.png */; };
+		A639D00A1553039200BFA6E5 /* lightsquare.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0041553039200BFA6E5 /* lightsquare.png */; };
+		A639D00B1553039200BFA6E5 /* red1.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0051553039200BFA6E5 /* red1.png */; };
+		A639D00C1553039200BFA6E5 /* red2.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0061553039200BFA6E5 /* red2.png */; };
+		A639D00D1553039200BFA6E5 /* red3.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0071553039200BFA6E5 /* red3.png */; };
+		A639D0191553817900BFA6E5 /* blue10.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0151553817900BFA6E5 /* blue10.png */; };
+		A639D01A1553817900BFA6E5 /* bluecover.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0161553817900BFA6E5 /* bluecover.png */; };
+		A639D01B1553817900BFA6E5 /* red10.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0171553817900BFA6E5 /* red10.png */; };
+		A639D01C1553817900BFA6E5 /* redcover.png in Resources */ = {isa = PBXBuildFile; fileRef = A639D0181553817900BFA6E5 /* redcover.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		340AB195154F878D0049853D /* strategoGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strategoGame.h; sourceTree = "<group>"; };
+		340AB196154F878D0049853D /* strategoGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = strategoGame.m; sourceTree = "<group>"; };
+		340AB19B154F8AEA0049853D /* blue4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue4.png; path = ../blue4.png; sourceTree = "<group>"; };
+		340AB19C154F8AEB0049853D /* blue5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue5.png; path = ../blue5.png; sourceTree = "<group>"; };
+		340AB19D154F8AEB0049853D /* blue6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue6.png; path = ../blue6.png; sourceTree = "<group>"; };
+		340AB19E154F8AEB0049853D /* blue7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue7.png; path = ../blue7.png; sourceTree = "<group>"; };
+		340AB19F154F8AEB0049853D /* blue8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue8.png; path = ../blue8.png; sourceTree = "<group>"; };
+		340AB1A0154F8AEC0049853D /* blue9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue9.png; path = ../blue9.png; sourceTree = "<group>"; };
+		340AB1A1154F8AEC0049853D /* bluebomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebomb.png; path = ../bluebomb.png; sourceTree = "<group>"; };
+		340AB1AC154F8B4C0049853D /* blueflag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueflag.png; path = ../blueflag.png; sourceTree = "<group>"; };
+		340AB1B0154F8B4C0049853D /* red4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red4.png; path = ../red4.png; sourceTree = "<group>"; };
+		340AB1B1154F8B4C0049853D /* red5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red5.png; path = ../red5.png; sourceTree = "<group>"; };
+		340AB1B2154F8B4C0049853D /* red6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red6.png; path = ../red6.png; sourceTree = "<group>"; };
+		340AB1B3154F8B4C0049853D /* red7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red7.png; path = ../red7.png; sourceTree = "<group>"; };
+		340AB1B4154F8B4C0049853D /* red8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red8.png; path = ../red8.png; sourceTree = "<group>"; };
+		340AB1B5154F8B4C0049853D /* red9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red9.png; path = ../red9.png; sourceTree = "<group>"; };
+		340AB1B6154F8B4C0049853D /* redbomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redbomb.png; path = ../redbomb.png; sourceTree = "<group>"; };
+		340AB1B7154F8B4D0049853D /* redflag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redflag.png; path = ../redflag.png; sourceTree = "<group>"; };
+		A61611F9154B26BD00C23F67 /* StrategoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrategoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61611FD154B26BD00C23F67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A61611FF154B26BD00C23F67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6161201154B26BD00C23F67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6161205154B26BD00C23F67 /* StrategoGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrategoGame-Info.plist"; sourceTree = "<group>"; };
+		A6161207154B26BD00C23F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6161209154B26BD00C23F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A616120B154B26BD00C23F67 /* StrategoGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrategoGame-Prefix.pch"; sourceTree = "<group>"; };
+		A616120C154B26BD00C23F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A616120D154B26BD00C23F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A616120F154B26BD00C23F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6161210154B26BD00C23F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6161213154B26BD00C23F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A616121A154B270B00C23F67 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		A616121B154B270B00C23F67 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		A616121D154B278000C23F67 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		A616121E154B278100C23F67 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		A616123B154B28C700C23F67 /* BoardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardModel.h; sourceTree = "<group>"; };
+		A616123C154B28C700C23F67 /* BoardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardModel.m; sourceTree = "<group>"; };
+		A639CFF81553037C00BFA6E5 /* blue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue1.png; sourceTree = "<group>"; };
+		A639CFF91553037C00BFA6E5 /* blue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue2.png; sourceTree = "<group>"; };
+		A639CFFA1553037D00BFA6E5 /* blue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue3.png; sourceTree = "<group>"; };
+		A639CFFD1553037D00BFA6E5 /* darksquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darksquare.png; sourceTree = "<group>"; };
+		A639D0041553039200BFA6E5 /* lightsquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightsquare.png; sourceTree = "<group>"; };
+		A639D0051553039200BFA6E5 /* red1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red1.png; sourceTree = "<group>"; };
+		A639D0061553039200BFA6E5 /* red2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red2.png; sourceTree = "<group>"; };
+		A639D0071553039200BFA6E5 /* red3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red3.png; sourceTree = "<group>"; };
+		A639D0151553817900BFA6E5 /* blue10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue10.png; sourceTree = "<group>"; };
+		A639D0161553817900BFA6E5 /* bluecover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluecover.png; sourceTree = "<group>"; };
+		A639D0171553817900BFA6E5 /* red10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red10.png; sourceTree = "<group>"; };
+		A639D0181553817900BFA6E5 /* redcover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcover.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61611F6154B26BC00C23F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61611FE154B26BD00C23F67 /* UIKit.framework in Frameworks */,
+				A6161200154B26BD00C23F67 /* Foundation.framework in Frameworks */,
+				A6161202154B26BD00C23F67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61611EE154B26BC00C23F67 = {
+			isa = PBXGroup;
+			children = (
+				A6161203154B26BD00C23F67 /* StrategoGame */,
+				A61611FC154B26BD00C23F67 /* Frameworks */,
+				A61611FA154B26BD00C23F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61611FA154B26BD00C23F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61611F9154B26BD00C23F67 /* StrategoGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61611FC154B26BD00C23F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61611FD154B26BD00C23F67 /* UIKit.framework */,
+				A61611FF154B26BD00C23F67 /* Foundation.framework */,
+				A6161201154B26BD00C23F67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6161203154B26BD00C23F67 /* StrategoGame */ = {
+			isa = PBXGroup;
+			children = (
+				A616120C154B26BD00C23F67 /* AppDelegate.h */,
+				A616120D154B26BD00C23F67 /* AppDelegate.m */,
+				A616120F154B26BD00C23F67 /* ViewController.h */,
+				A6161210154B26BD00C23F67 /* ViewController.m */,
+				340AB195154F878D0049853D /* strategoGame.h */,
+				340AB196154F878D0049853D /* strategoGame.m */,
+				A616121D154B278000C23F67 /* BoardView.h */,
+				A616121E154B278100C23F67 /* BoardView.m */,
+				A616123B154B28C700C23F67 /* BoardModel.h */,
+				A616123C154B28C700C23F67 /* BoardModel.m */,
+				A6161212154B26BD00C23F67 /* ViewController.xib */,
+				A616121A154B270B00C23F67 /* Piece.h */,
+				A616121B154B270B00C23F67 /* Piece.m */,
+				A6161204154B26BD00C23F67 /* Supporting Files */,
+			);
+			path = StrategoGame;
+			sourceTree = "<group>";
+		};
+		A6161204154B26BD00C23F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				340AB1AC154F8B4C0049853D /* blueflag.png */,
+				340AB1B0154F8B4C0049853D /* red4.png */,
+				340AB1B1154F8B4C0049853D /* red5.png */,
+				340AB1B2154F8B4C0049853D /* red6.png */,
+				A639D0151553817900BFA6E5 /* blue10.png */,
+				A639D0161553817900BFA6E5 /* bluecover.png */,
+				A639D0171553817900BFA6E5 /* red10.png */,
+				A639D0181553817900BFA6E5 /* redcover.png */,
+				340AB1B3154F8B4C0049853D /* red7.png */,
+				A639D0041553039200BFA6E5 /* lightsquare.png */,
+				A639D0051553039200BFA6E5 /* red1.png */,
+				A639D0061553039200BFA6E5 /* red2.png */,
+				A639D0071553039200BFA6E5 /* red3.png */,
+				A639CFF81553037C00BFA6E5 /* blue1.png */,
+				A639CFF91553037C00BFA6E5 /* blue2.png */,
+				A639CFFA1553037D00BFA6E5 /* blue3.png */,
+				A639CFFD1553037D00BFA6E5 /* darksquare.png */,
+				340AB1B4154F8B4C0049853D /* red8.png */,
+				340AB1B5154F8B4C0049853D /* red9.png */,
+				340AB1B6154F8B4C0049853D /* redbomb.png */,
+				340AB1B7154F8B4D0049853D /* redflag.png */,
+				340AB19B154F8AEA0049853D /* blue4.png */,
+				340AB19C154F8AEB0049853D /* blue5.png */,
+				340AB19D154F8AEB0049853D /* blue6.png */,
+				340AB19E154F8AEB0049853D /* blue7.png */,
+				340AB19F154F8AEB0049853D /* blue8.png */,
+				340AB1A0154F8AEC0049853D /* blue9.png */,
+				340AB1A1154F8AEC0049853D /* bluebomb.png */,
+				A6161205154B26BD00C23F67 /* StrategoGame-Info.plist */,
+				A6161206154B26BD00C23F67 /* InfoPlist.strings */,
+				A6161209154B26BD00C23F67 /* main.m */,
+				A616120B154B26BD00C23F67 /* StrategoGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61611F8154B26BC00C23F67 /* StrategoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6161217154B26BD00C23F67 /* Build configuration list for PBXNativeTarget "StrategoGame" */;
+			buildPhases = (
+				A61611F5154B26BC00C23F67 /* Sources */,
+				A61611F6154B26BC00C23F67 /* Frameworks */,
+				A61611F7154B26BC00C23F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrategoGame;
+			productName = StrategoGame;
+			productReference = A61611F9154B26BD00C23F67 /* StrategoGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61611F0154B26BC00C23F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A61611F3154B26BC00C23F67 /* Build configuration list for PBXProject "StrategoGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61611EE154B26BC00C23F67;
+			productRefGroup = A61611FA154B26BD00C23F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61611F8154B26BC00C23F67 /* StrategoGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61611F7154B26BC00C23F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6161208154B26BD00C23F67 /* InfoPlist.strings in Resources */,
+				A6161214154B26BD00C23F67 /* ViewController.xib in Resources */,
+				340AB1A5154F8AED0049853D /* blue4.png in Resources */,
+				340AB1A6154F8AED0049853D /* blue5.png in Resources */,
+				340AB1A7154F8AED0049853D /* blue6.png in Resources */,
+				340AB1A8154F8AED0049853D /* blue7.png in Resources */,
+				340AB1A9154F8AED0049853D /* blue8.png in Resources */,
+				340AB1AA154F8AED0049853D /* blue9.png in Resources */,
+				340AB1AB154F8AED0049853D /* bluebomb.png in Resources */,
+				340AB1B8154F8B4D0049853D /* blueflag.png in Resources */,
+				340AB1BC154F8B4D0049853D /* red4.png in Resources */,
+				340AB1BD154F8B4D0049853D /* red5.png in Resources */,
+				340AB1BE154F8B4D0049853D /* red6.png in Resources */,
+				340AB1BF154F8B4D0049853D /* red7.png in Resources */,
+				340AB1C0154F8B4D0049853D /* red8.png in Resources */,
+				340AB1C1154F8B4D0049853D /* red9.png in Resources */,
+				340AB1C2154F8B4D0049853D /* redbomb.png in Resources */,
+				340AB1C3154F8B4D0049853D /* redflag.png in Resources */,
+				A639CFFE1553037D00BFA6E5 /* blue1.png in Resources */,
+				A639CFFF1553037D00BFA6E5 /* blue2.png in Resources */,
+				A639D0001553037D00BFA6E5 /* blue3.png in Resources */,
+				A639D0031553037D00BFA6E5 /* darksquare.png in Resources */,
+				A639D00A1553039200BFA6E5 /* lightsquare.png in Resources */,
+				A639D00B1553039200BFA6E5 /* red1.png in Resources */,
+				A639D00C1553039200BFA6E5 /* red2.png in Resources */,
+				A639D00D1553039200BFA6E5 /* red3.png in Resources */,
+				A639D0191553817900BFA6E5 /* blue10.png in Resources */,
+				A639D01A1553817900BFA6E5 /* bluecover.png in Resources */,
+				A639D01B1553817900BFA6E5 /* red10.png in Resources */,
+				A639D01C1553817900BFA6E5 /* redcover.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61611F5154B26BC00C23F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616120A154B26BD00C23F67 /* main.m in Sources */,
+				A616120E154B26BD00C23F67 /* AppDelegate.m in Sources */,
+				A6161211154B26BD00C23F67 /* ViewController.m in Sources */,
+				A616121C154B270B00C23F67 /* Piece.m in Sources */,
+				A616121F154B278100C23F67 /* BoardView.m in Sources */,
+				A616123D154B28C800C23F67 /* BoardModel.m in Sources */,
+				340AB197154F878D0049853D /* strategoGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6161206154B26BD00C23F67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6161207154B26BD00C23F67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6161212154B26BD00C23F67 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6161213154B26BD00C23F67 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6161215154B26BD00C23F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A6161216154B26BD00C23F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6161218154B26BD00C23F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategoGame/StrategoGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategoGame/StrategoGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6161219154B26BD00C23F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategoGame/StrategoGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategoGame/StrategoGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61611F3154B26BC00C23F67 /* Build configuration list for PBXProject "StrategoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6161215154B26BD00C23F67 /* Debug */,
+				A6161216154B26BD00C23F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6161217154B26BD00C23F67 /* Build configuration list for PBXNativeTarget "StrategoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6161218154B26BD00C23F67 /* Debug */,
+				A6161219154B26BD00C23F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61611F0154B26BC00C23F67 /* Project object */;
+}
